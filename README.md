@@ -1,6 +1,6 @@
 # .vimrc
 Basic vim config
-
+### Description
 ##### List of included plugins
 * https://github.com/scrooloose/nerdtree
 * https://github.com/flazz/vim-colorschemes
@@ -11,7 +11,17 @@ Basic vim config
 
 ##### List of colorschemes
 * https://github.com/gosukiwi/vim-atom-dark
-##### Vundle installation
+
+##### Fonts 
+* https://github.com/source-foundry/Hack
+
+### Installation
+##### First step
+`git clone https://github.com/hyphenn/vimrc yourfolder`
+
+`cp -R yourfolder/* ~`
+
+##### Vundle
 `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
 #####  Plugin installation with Vundle : 
