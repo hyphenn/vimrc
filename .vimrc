@@ -65,6 +65,8 @@ set shiftwidth=2
 
 "treeView
 autocmd VimEnter * NERDTree
+
+"beautify CTRL-B
 map <C-B> :call JsBeautify()<cr>
 
 "clock
