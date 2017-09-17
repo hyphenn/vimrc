@@ -24,7 +24,7 @@ Basic vim config
 ##### Vundle
 `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
-#####  Plugin installation with Vundle : 
+##### Plugins
 `:PluginInstall`
 
 #####  Reload .vimrc
