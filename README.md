@@ -19,7 +19,7 @@ Basic vim config
 ##### First step
 `git clone https://github.com/hyphenn/vimrc yourfolder`
 
-`cp -R yourfolder/* ~`
+`cp -R yourfolder/.vim* ~`
 
 ##### Vundle
 `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
