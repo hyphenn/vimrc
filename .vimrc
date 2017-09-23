@@ -65,7 +65,16 @@ set shiftwidth=2
 
 "treeView
 autocmd VimEnter * NERDTree
-map <C-B> :call JsBeautify()<cr>
+"map <C-B> :call JsBeautify()<cr>
+autocmd FileType javascript noremap <buffer>  <C-B> :call JsBeautify()<cr>
+" for json
+autocmd FileType json noremap <buffer> <C-B> :call JsonBeautify()<cr>
+" for jsx
+autocmd FileType jsx noremap <buffer> <C-B> :call JsxBeautify()<cr>
+" for html
+autocmd FileType html noremap <buffer> <C-B> :call HtmlBeautify()<cr>
+" for css or scss
+autocmd FileType css noremap <buffer> <C-B> :call CSSBeautify()<cr>
 
 "clock
 let g:airline#extensions#clock#format = '%H:%M:%S'
